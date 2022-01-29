@@ -24,3 +24,9 @@ For the purpose of reuse there are two systems.
 * Likewise, CustomerManagement also needs to use these two components. 
 
 These two system do not need to have any idea about the implementation details. They can just use the interfaces.
+
+# Execution Details
+
+To execute the kitchenManagementSystem, **Orders** should be added as reference. And then compiler the **ManageKitchen** class.
+
+For reuse purpose, the **customerManagement** system should be executed with the same dependency of **Orders** component.
